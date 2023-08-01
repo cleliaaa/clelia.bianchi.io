@@ -1,0 +1,308 @@
+:root{
+    --hauteur-menu: 20px;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+
+body {
+	font-family: 'poppins', sans-serif;
+    background-color: #D9CCC1;
+    background-size: cover;
+}
+
+
+header {
+    height: 100vh;
+    width: 100vw;
+    top: 0; 
+    height: 100%;  
+    width: 100px;
+}   
+
+a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    position: fixed;
+    display: flex;
+    writing-mode: vertical-rl;
+    width: 56px;
+    height: 24px;
+    right: 30px;
+    top: 47px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    line-height: normal;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+
+.menu a:hover {
+    transition: 0,5s;
+    font-size: 21px;
+}
+
+.submenu a {
+    color: #000;
+}
+
+.submenu {
+    padding-top: 20px;
+}
+
+.submenu a:hover {
+    font-weight: bold;
+    transition: all 1s ease-out;
+}
+
+
+.accueil a {
+    position: fixed;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    left: 51px;
+    top: 43px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+}
+.accueil a:hover {
+    transition: 0,5s;
+    font-size: 21px;
+}
+
+.tous {
+    position: relative;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    left: 628px;
+    top: 62px;
+    width: 200px;
+}
+.tous :hover{
+    font-weight: 600;
+    padding:1px;
+}
+
+.trait {
+    position: relative;
+    border-top: 1px solid #000; 
+    width: 1125px;
+    left: 156px;
+    top: 120px;
+}
+
+.adidas{
+    position: relative;
+	height: 200px; 
+    max-width: 100%;
+	height: auto;
+}
+
+
+.habyss{
+    position: relative;
+	height: 195px; 
+    max-width: 100%;
+	height: auto;
+    border-color: black;
+}
+
+
+.joy{
+    position: relative;
+	height: 200px; 
+    max-width: 100%;
+	height: auto;
+}
+
+.fleches {
+    display: flex;
+}
+.fleche{
+    position: relative;
+    display: flex;
+    width: 198px;
+    height: 49px;
+    left: 669px;
+    top: 770px;
+    width: 45px;
+	height: auto;
+    max-width: 100%;
+}
+
+.flechee{
+    position: relative;
+    display: flex;
+    width: 198px;
+    height: 49px;
+    left: 720px;
+    top: 770px;
+    width: 45px;
+	height: auto;
+    max-width: 100%;
+    transform: rotate(180deg);
+    
+}
+@media all and (max-height:750px){
+    .fleche {
+        position: absolute;
+        left: 27px;
+        top: 461px;
+    }
+}
+@media all and (max-height:750px){
+    .flechee {
+        position: absolute;
+        right: 27px;
+        top: 461px;
+    }
+}
+
+
+
+
+.projectitem {
+    display: flex;
+
+}
+
+.projectitem {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 450px; /*250px pour mobile*/
+    background-color: blue;
+}
+
+
+.projectitem {
+    gap: 7rem;
+
+}
+
+.card img {
+    width: 250px;
+    max-width: 100%;
+	height: auto;
+    padding-bottom: 20px;
+}
+
+
+
+
+.texteadidas {
+    position: relative;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.adidasname {
+    position: relative;
+    left: 400px;
+    top: 290px;
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.textehabyss {
+    position: relative;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;   
+}
+
+
+.habyssname {
+    position: relative;
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.joyname {
+    position: relative;
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.textejoy {
+    position: relative;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sub {
+    visibility: hidden;
+    transform: translateX(-30px)  rotate(90deg);
+    opacity: 0;
+    transition:0.4s ease all;
+
+}
+
+.projectitem:hover .sub {
+    visibility: visible;
+    transform: translateX(0px)  rotate(90deg);
+    opacity: 1;
+}
+
+
+
+
+.projects p {
+    position: fixed;
+    display: flex;
+    transform: rotate(90.304deg);
+    font-family: 'poppins', sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    bottom: 110px;
+    right: 8px;
+}
+
+.vertical-line{
+    position: fixed;
+    display: flex;
+    border-left: 2px solid #000;
+    display: inline-block;
+    height:70px;
+    right: 3rem;
+    bottom:0
+}

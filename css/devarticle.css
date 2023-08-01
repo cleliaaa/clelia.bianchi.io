@@ -1,0 +1,170 @@
+:root{
+    --hauteur-menu: 20px;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+	font-family: 'poppins', sans-serif;
+    background-color: #D9CCC1;
+    background-size: cover;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    position: fixed;
+    height: 6.25rem;
+    width: 100%;
+}
+
+
+.nav {
+    padding: 40px; 
+    display: flex;
+    width: 100%;
+    background-color: #D9CCC1;
+}
+
+
+.accueil {
+    position: fixed;
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: normal;
+    left: 51px;
+    top: 43px;
+    padding-right: 100px;
+}
+
+.tous {
+    position: relative;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    left: 628px;
+    top: 62px;
+
+}
+
+.trait {
+    position: relative;
+    border-top: 1px solid #000; 
+    width: 1125px;
+    left: 156px;
+    top: 100px;
+
+}
+
+.touss {
+    height: 30px;
+
+}
+
+.menu a {
+    position: fixed;
+    display: flex;
+    writing-mode: vertical-rl;
+    right: 3rem;
+    top: 47px;
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+
+.menu a:hover {
+    transition: 1s;
+    font-size: 21px;
+}
+
+aside p {
+    position: fixed;
+    display: flex;
+    transform: rotate(90.304deg);
+    font-family: 'poppins', sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    bottom: 100px;
+    right: 26px;
+}
+
+.vertical-line{
+    position: fixed;
+    display: flex;
+    border-left: 2px solid #000;
+    display: inline-block;
+    height:70px;
+    right: 3rem;
+    bottom:0
+}
+
+h1 {
+    position: relative;
+    display: flex;
+    flex: wrap;
+    top: 250px;
+    left: 51px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 73.5px;
+}
+@media all and (max-width:550px){
+    h1 {
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 4.0625rem;
+        letter-spacing: -0.12813rem;
+        text-transform: uppercase;
+        transition: all 1s ease-out;
+
+    }
+}
+
+
+.date {
+    position: relative;
+    display: flex;
+    flex: wrap;
+    top: 270px;
+    left: 51px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.title {
+    height: 40px;
+}
+
+.article {
+    position: relative;
+    display: flex;
+    top: 600px;
+    padding: 300px;
+
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 18px;
+}

@@ -1,0 +1,182 @@
+:root{
+    --hauteur-menu: 20px;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+	font-family: 'poppins', sans-serif;
+    background-color: #D9CCC1;
+    background-size: cover;
+    
+
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    position: fixed;
+    height: 6.25rem;
+    width: 100%;
+}
+
+
+
+.nav {
+    padding: 40px; 
+    display: flex;
+    width: 100%;
+    background-color: #D9CCC1;
+}
+
+.menu a {
+    position: fixed;
+    display: flex;
+    writing-mode: vertical-rl;
+    right: 3rem;
+    top: 47px;
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+
+.menu a:hover {
+    transition: 1s;
+    font-size: 21px;
+}
+
+
+.menu a:hover {
+    transition: 1s;
+    font-size: 21px;
+}
+
+
+.landingpage h1{
+    position: relative;
+    display: flex;
+    flex: wrap;
+    left: 122px;
+    top: 323px;
+    color: #000;
+    font-size: 128px;
+    font-weight: 400;
+    line-height: 140px;
+    letter-spacing: -6.4px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.landingpage h2{
+    position: relative;
+    display: flex;
+    flex: wrap;
+    left: 278px;
+    top: 330px;
+    color: #000;
+    font-size: 128px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 140px;
+    letter-spacing: -6.4px;
+}
+
+
+.landingpage p {
+    position: relative;
+    display: flex;
+    flex: wrap;
+    width: 219px;
+    left: 1120px;
+    top: 310px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    font-family: 'poppins', sans-serif;
+}
+@media all and (max-width:1350px){
+    .landingpageh2 {
+        font-size: -30%;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 4.0625rem;
+        letter-spacing: -0.12813rem;
+        text-transform: uppercase;
+
+    }
+}
+
+.clelia1 {
+    position: absolute;
+    width: 365px;
+    height: 468px;
+    left: 921px;
+    top:112px;
+    flex-shrink: 0;
+}
+
+
+.clelia2 {
+    position: absolute;
+    width: 273px;
+    height: 415px;
+    left: 836px;
+    top: 489px;
+    flex-shrink: 0;
+}
+@media all and (max-width:1850px){
+    .photos{
+        size: -30%;
+
+    }
+}
+
+aside {
+    display: flex;
+    flex-basis: 25%;
+    right: 0;
+    height: 100%;
+    width: 6.25rem;
+    padding-left: 100px;
+    background-color: #D9CCC1;
+
+}
+
+
+
+aside p {
+    position: fixed;
+    display: flex;
+    transform: rotate(90.304deg);
+    font-family: 'poppins', sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    bottom: 110px;
+    right: 1rem;
+}
+
+.vertical-line{
+    position: fixed;
+    display: flex;
+    border-left: 2px solid #000;
+    display: inline-block;
+    height:70px;
+    right: 3rem;
+    bottom:0
+}
+

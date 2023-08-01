@@ -1,0 +1,115 @@
+<label for="toggle">☰</label>
+<input type="checkbox" id="toggle">
+<div class="nav-links">
+    <ul class="nav">
+        <li><a href="passions.html">Passions</a></li>
+        <li><a href="formations.html">Formations</a></li>
+        <li class="ep"><a href="experiencespro.html">Expériences professionnelles</a></li>
+        <li><a href="realisations.html">Réalisations</a></li>
+    </ul>
+</div>  
+
+
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    position: fixed;
+    height: 6.25rem;
+    width: 100%;
+
+}
+
+
+
+.nav {
+    flex-wrap: wrap;
+    top:0;
+    padding: 40px; 
+    padding-inline: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #D9CCC1;
+
+}
+@media all and (max-width:1430px){
+    .nav {
+        padding-inline: 260px;
+    }
+}
+
+.nav-links a {
+    padding: 1rem;
+    font-weight: 600;
+
+    
+}
+
+
+label, #toggle
+{
+    display: none;
+}
+ 
+@media all and (max-width: 922px)
+{
+    nav
+    {
+        height: 60px;
+    }
+ 
+    nav .nav-links 
+    {
+        display: none;
+        flex-direction: column;
+        height: 220px;
+    }
+ 
+    label 
+    {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        color: black;
+        cursor: pointer;
+
+    }
+    nav .nav-links a {
+        width: 50%;
+        position: relative;
+        left: 20px;
+        top: 35px;
+    }
+
+    .accueil {
+        position: relative;
+        padding-left: 30px;    
+    }
+}
+ 
+    
+ 
+    #toggle:checked + .nav-links {
+        display: flex;
+    }
+
+label {
+    position: relative;
+    left: 20px;
+    top: 25px;
+
+}
+.ep a {
+    width: 15rem;
+}
